@@ -5,3 +5,71 @@ title: João Bugelli
 module:
   imports:
     - path: github.com/imfing/hextra
+
+outputs:
+  home: [HTML,RSS]
+
+# services:
+#   disqus:
+#     # shortname: 
+#   googleAnalytics:
+#     ID: configurar ga
+
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+      
+    - name: About
+      pageRef: /about
+      weight: 2
+
+    - name: Busca
+      weight: 4
+      params:
+        type: search
+
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/joaobugelli"
+      params:
+        icon: github
+
+
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
+  youtubeDefaults:
+    iframeAllowList: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy: "no-referrer"
+    iframeStyle: "border:0; width:100%; aspect-ratio:16/9;"
+
+  theme:
+    default: system
+
+  author:
+    name: João Bugelli
+    email: joaoalexsb@gmail.com
+
+  # adicionar descrição do site
+  description: ""
