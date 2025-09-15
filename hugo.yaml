@@ -48,7 +48,9 @@ menu:
       params:
         icon: github
 
-
+taxonomies:
+  tag: tags
+  category: categories
 
 params:
   navbar:
