@@ -29,12 +29,12 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Estudos
+      pageRef: /estudos
       weight: 1
       
-    - name: About
-      pageRef: /about
+    - name: Sobre
+      pageRef: /sobre
       weight: 2
 
     - name: Busca
