@@ -29,8 +29,8 @@ markup:
 
 menu:
   main:
-    - name: Estudos
-      pageRef: /estudos
+    - name: Blog
+      pageRef: /blog
       weight: 1
       
     - name: Sobre
