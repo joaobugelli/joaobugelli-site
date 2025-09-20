@@ -1,0 +1,16 @@
+main:
+  - name: Blog
+    pageRef: /blog
+    weight: 1
+  - name: Sobre
+    pageRef: /sobre
+    weight: 2
+  - name: Busca
+    params:
+      type: search
+    weight: 4
+  - name: GitHub
+    url: https://github.com/joaobugelli
+    params:
+      icon: github
+    weight: 5

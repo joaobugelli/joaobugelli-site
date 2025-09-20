@@ -1,0 +1,33 @@
+navbar:
+  displayTitle: true
+  displayLogo: false
+
+search:
+  enable: true
+
+page:
+  layout: normal  # options: normal, wide
+
+footer:
+  displayCopyright: true
+  displayPoweredBy: true
+
+youtubeDefaults:
+  iframeAllowList: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy: "no-referrer"
+  iframeStyle: "border:0; width:100%; aspect-ratio:16/9;"
+
+blog:
+  list:
+    pagerSize: 20 # quantidade de posts por página
+    displayTags: true
+
+theme:
+  default: light
+
+author:
+  name: João Bugelli
+  email: joaoalexsb@gmail.com
+
+# adicionar descrição do site
+description: ""
