@@ -9,3 +9,5 @@ resources/_gen/
 # SO
 .DS_Store
 Thumbs.db
+
+/_vendor/
