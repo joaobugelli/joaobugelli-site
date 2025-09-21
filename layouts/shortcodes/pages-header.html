@@ -1,0 +1,7 @@
+{{ $title := .Get "title" | default .Page.Title }}
+{{ $subtitle := .Get "subtitle" }}
+
+<div class="header-pages">
+  <h1 class="header-pages-h1">{{ $title }}</h1>
+  {{ if $subtitle }}<p class="header-pages-subtitle">{{ $subtitle }}</p>{{ end }}
+</div>

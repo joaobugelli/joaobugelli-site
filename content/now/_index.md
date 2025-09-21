@@ -1,10 +1,9 @@
-<div style="text-align: center; margin-top: 2.5rem;">
-  <h1 style="font-size: 3rem; font-family:Inter">Now</h1>
-</div>
+---
+# title: "Now"
 
-<div style="text-align: center; margin-top:20px; margin-bottom: 3rem;">
-  <p style="font-size: 1.3rem; color: #747474ff;">O que estou fazendo atualmente?</p>
-</div>
+---
+
+{{< pages-header title="Now" subtitle="O que estou fazendo atualmente?">}}
 
 ---
 

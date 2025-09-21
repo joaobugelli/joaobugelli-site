@@ -3,9 +3,7 @@ draft: false
 toc: false
 ---
 
-<div style="text-align: center; margin-top: 2.5rem;">
-  <h1 style="font-size: 3rem; font-family:Inter">Sobre</h1>
-</div>
+{{< pages-header title="Sobre" >}}
 
 ---
 
