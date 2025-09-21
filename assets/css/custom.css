@@ -1,0 +1,71 @@
+.content {
+  font-family: "Inter", sans-serif;
+}
+
+/* Home */
+.header-home {
+    text-align: center;
+    margin-top: 5rem; 
+}
+
+.header-home-h1 {
+    font-size: 3rem
+}
+
+.header-home-subtitle {
+    font-size: 1.3rem;
+    color: #747474ff;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/* cor padrão (modo claro) */
+.novidade-item {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* modo escuro */
+.dark .novidade-item {
+  border-bottom: 1px solid #404040;
+}
+
+.novidade-item:hover {
+  background-color: #F9FAFB;
+}
+
+.dark .novidade-item:hover {
+  background-color: #171717;
+}
+
+.novidade-item-date {
+    font-size: 0.875rem; /* text-sm */
+    color: #707070; /* text-gray-500 */
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.novidade-item-title {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+/* Páginas */
+.header-pages {
+    text-align: center;
+    margin-top: 2rem
+}
+
+.header-pages-h1 {
+    font-size: 3rem
+}
+
+.header-pages-subtitle {
+    font-size: 1.3rem;
+    color: #747474ff;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
