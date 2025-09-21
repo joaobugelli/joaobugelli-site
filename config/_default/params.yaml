@@ -18,9 +18,17 @@ youtubeDefaults:
   iframeStyle: "border:0; width:100%; aspect-ratio:16/9;"
 
 blog:
-  list:
-    pagerSize: 20 # quantidade de posts por página
-    displayTags: true
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc # or "asc"
+      pagerSize: 20
+
+    article:
+      displayPagination: true
+
+toc:
+    displayTags: true    
 
 theme:
   default: light
