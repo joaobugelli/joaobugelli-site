@@ -1,3 +1,6 @@
+---
+---
+
 <div style="text-align: center; margin-top: 2.5rem;">
   <h1 style="font-size: 3rem; font-family:Inter">Livros</h1>
 </div>
@@ -12,22 +15,23 @@
 
 {{% /details %}}
 
+
 ## Não Ficção
 
 ### Negócios, Produto & Startups
 - Startup Enxuta ✅
 - Inspirado ✅
+- Ponto de Inflexão ✅
+- Código Fonte 📌
+- Os inovadores 📌
+- Apaixone-se pelo problema, não pela solução 📌
 - Emponderado
 - A regra é não ter regras
-- Código Fonte 📌
 - Isso Nunca Vai Funcionar
-- Ponto de Inflexão ✅
-- Apaixone-se pelo problema, não pela solução 📌
 - Manual do Empreendedor
 - The Mom Test
 - Disciplined Enterpreuner
 - Zero to One
-- Os inovadores 📌
 - Hacking Growth
 - Comece pelo porque
 - O jogo infinito
@@ -47,8 +51,8 @@
 - The Thousand Brains
 
 ### Economia e Finanças
-- Investidor Inteligente
 - Valuation, Damondaran ✅
+- Investidor Inteligente
 - Introdução a Economia - Mankiw 
 - Avaliação de Empresas - Damondaran
 - Crash: Uma breve história da economia
@@ -70,11 +74,12 @@
 
 ## Ficção
 
-### Ficção Científica & Distopias
+### Ficção Científica e Distopias
 - 1984 ✅
 - Eu robô ✅
-- Fundação
+- Revolução dos Bichos ✅ 
 - Guia do Mochileiro das Galáxias ✅
+- Fundação
 - Um estranho em uma terra estranha
 - Planeta dos macacos
 - Neuromancer 📖
