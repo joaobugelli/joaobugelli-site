@@ -1,8 +1,10 @@
 ---
-# type: "page"
 cascade:
     breadcrumbs: false
-    toc: True
+    toc: true   
+    type: default
+sidebar:
+  exclude: true
 
 ---
 
