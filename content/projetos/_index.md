@@ -1,6 +1,8 @@
 ---
 draft: false
-toc: false
+cascade:
+    type: default
+    
 ---
 
 {{< pages-header title="Projetos" >}}
