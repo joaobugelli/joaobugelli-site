@@ -25,6 +25,7 @@
 - Código Fonte 📌
 - Os inovadores 📌
 - Apaixone-se pelo problema, não pela solução 📌
+- As 4 Disciplinas da Execução
 - Emponderado
 - A regra é não ter regras
 - Isso Nunca Vai Funcionar
@@ -47,15 +48,9 @@
 - Hands-On Machine Learning
 - Projetando Sistemas de Machine Learning
 - The Thousand Brains
-- The Coming Wave
+- The Coming Wave 📌
 - The Thousand Brains
 
-### Economia e Finanças
-- Valuation, Damondaran ✅
-- Investidor Inteligente
-- Introdução a Economia - Mankiw 
-- Avaliação de Empresas - Damondaran
-- Crash: Uma breve história da economia
 
 ### Psicologia, Mentalidade e Alta Performance
 - Maestria ✅
@@ -63,13 +58,37 @@
 - Hábitos Atômicos 📖
 - Flow 📌
 - Antifragil
-- Rápido e devagar
+- Rápido e devagar - Daniel Kahneman
 - Hooked
+- Em Busca de Sentido - Viktor Frankl
+- Princípios – Ray Dalio
+- Ruído – Daniel Kahneman
+
 
 ### História, Sociedade e Futuro
 - Sapiens
 - Homo Deus
 - Nexus
+- How the World Really Works - Vaclav Smil
+- Invention and Innovation - Vaclav Smil
+- Numbers Don’t Lie - Vaclav Smil
+- How to Feed the World - Vaclav Smil
+- Princípios para a ordem mundial em transformação
+- Por que as nações fracassam
+
+
+### Economia e Finanças
+- Valuation, Damondaran ✅
+- Investidor Inteligente
+- Introdução a Economia - Mankiw 
+- Avaliação de Empresas - Damondaran
+- Crash: Uma breve história da economia
+- A Nova China - Para Além do Capitalismo e do Socialismo
+- China: o Socialismo do Século XXI 
+- Como a China Escapou da Terapia de Choque
+- O Terceiro Excluído - Fernando Haddad
+- Economia do Bem Comum – Jean Tirole
+- Como Funcionam os Mercados – Alvin E. Roth
 
 
 ## Ficção
@@ -83,14 +102,34 @@
 - Um estranho em uma terra estranha
 - Planeta dos macacos
 - Neuromancer 📖
+- O Porblema dos Três Corpos
 
-### Fantasia
-- O nome do vento
+### Ficção Literária Clássica
+- Em Busca do Tempo Perdido – Marcel Proust
+- A Metamorfose – Franz Kafka
+- O Processo – Franz Kafka
+- Ficções – Jorge Luis Borges
+
 
 ### Literatura Brasileira
-- Memórias Póstumas de Brás Cubas
-- Vidas Secas
-- Capitães de Areia
+- Memórias Póstumas de Brás Cubas - Machado de Assis
+- Capitães da Areia - Jorge Amado
+- Dom Casmurro - Machado de Assis
+- Grande Sertão: Veredas - João Guimarães Rosa
+- Vidas Secas - Graciliano Ramos
+- São Bernardo - Graciliano Ramos
+- O Cortiço - Aluísio Azevedo
+- Iracema - José de Alencar
+- Os Sertões - Euclides da Cunha
+- A Moreninha - Joaquim Manuel de Macedo
+- Torto Arado - Itamar Vieira Junior
+- Quarto de Despejo - Carolina Maria de Jesus
+- A Hora da Estrela - Clarice Lispector
+- Tudo é Rio – Carla Madeira
+
+
+### Fantasia
+- O Nome do Vento
 
 
 
