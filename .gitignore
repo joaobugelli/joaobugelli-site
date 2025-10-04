@@ -11,3 +11,7 @@ resources/_gen/
 Thumbs.db
 
 /_vendor/
+
+
+# drafts
+content/blog/drafts/
