@@ -63,6 +63,7 @@
 - Em Busca de Sentido - Viktor Frankl
 - Princípios – Ray Dalio
 - Ruído – Daniel Kahneman
+- Meditações – Marco Aurélio
 
 
 ### História, Sociedade e Futuro
@@ -109,6 +110,7 @@
 - A Metamorfose – Franz Kafka
 - O Processo – Franz Kafka
 - Ficções – Jorge Luis Borges
+- Os Irmãos Karamázov – Fiódor Dostoiévski
 
 
 ### Literatura Brasileira
@@ -130,16 +132,4 @@
 
 ### Fantasia
 - O Nome do Vento
-
-
-
-
-
-
-
-
-
-
-
-
 
