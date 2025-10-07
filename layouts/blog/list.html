@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+
+        <div class="header-pages">
+            <h1 class="blog-header-title">Blog</h1>
+        </div>
+    
+
+        {{/* Lista de posts */}}
+        {{/* Ordenação e paginação */}}
+                    
+        {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
+        {{- $pagerSize := site.Params.blog.list.pagerSize | default 10 -}}
+        {{- $paginator := .Paginate $pages $pagerSize -}}
+
+        <div class="classe-teste">
+          {{- range $paginator.Pages }}
+
+            {{/* KIND: aceita qualquer string (kind) ou lista/valor (kinds) e exibe como está */}}
+            {{- $kind := "" -}}
+            {{- with .Params.kind }}{{ $kind = (print .) }}{{ end -}}
+            {{- if eq $kind "" -}}
+              {{- with .Params.kinds -}}
+                {{- $t := printf "%T" . -}}
+                {{- if or (eq $t "[]string") (eq $t "[]interface {}") -}}
+                  {{- $kind = (delimit . ", ") -}}
+                {{- else -}}
+                  {{- $kind = (print .) -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+            {{- if eq $kind "" }}{{ $kind = "—" }}{{ end -}}
+
+            {{/* SUMMARY: tenta partial; cai para summary do front matter; depois .Summary */}}
+            {{- $summary := (partial "utils/page-description" .) | default (.Params.summary | default .Summary) -}}
+
+            {{/* CATEGORIAS como texto simples (sem links dentro do <a>) */}}
+            {{- $cats := .Params.categories | default (slice) -}}
+
+            <a href="{{ .RelPermalink }}"
+               aria-label="{{ .Title }}">
+
+               <div class="blog-post-item">
+                   <div class="blog-post-item-kind">
+                    {{ $kind }}
+                   </div>
+
+              <h2 class="blog-post-item-title">
+                {{ .Title }}
+              </h2>
+
+              {{ with $summary }}
+                <p class="blog-post-item-summary">
+                  {{ . | plainify }}
+                </p>
+              {{ end }}
+
+              <div class="blog-post-item-date">
+                {{ .Date | time.Format "02 Jan 2006" }}
+                {{ if gt (len $cats) 0 }} · {{ delimit $cats ", " }}{{ end }}
+              </div>
+               </div>
+            </a>
+
+          {{- end }}
+        </div>
+
+        {{- if gt $paginator.TotalPages 1 -}}
+          {{ partial "components/blog-pager.html" $paginator }}
+        {{- end -}}
+
+      </main>
+    </article>
+
+    <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>
+  </div>
+
+{{- end -}}
