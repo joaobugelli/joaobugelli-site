@@ -1,10 +1,11 @@
 ---
-title: "Sprint 25-R4-S2: Férias, Estudos, Leituras e Saúde"
+title: "Sprint 1: Férias, Estudos, Leituras e Saúde"
 date: 2025-10-06T17:21:49-03:00
 draft: false
 summary: "Semana de férias dedicada a estudos, leituras e rotina saudável."
+kinds: ["Sprints"]
+categories: []
 tags: ["férias", "estudos", "sprint"]
-categories: ["Sprint"]
 # slug: ""        # opcional
 ---
 
