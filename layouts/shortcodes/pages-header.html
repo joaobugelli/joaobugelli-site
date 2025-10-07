@@ -1,7 +1,5 @@
-{{ $title := .Get "title" | default .Page.Title }}
-{{ $subtitle := .Get "subtitle" }}
-
-<div class="header-pages">
-  <h1 class="header-pages-h1">{{ $title }}</h1>
-  {{ if $subtitle }}<p class="header-pages-subtitle">{{ $subtitle }}</p>{{ end }}
-</div>
+{{- partial "pages-header-core.html" (dict
+  "Page" .Page
+  "title" (.Get "title")
+  "subtitle" (.Get "subtitle")
+) -}}
