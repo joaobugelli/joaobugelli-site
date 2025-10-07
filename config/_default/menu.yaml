@@ -2,11 +2,11 @@ main:
   - name: Blog
     pageRef: /blog
     weight: 1
+  - name: Recrursos
+    pageRef: /docs
+    weight: 2
   - name: Now
     pageRef: /now
-    weight: 2
-  - name: Projetos
-    pageRef: /projetos
     weight: 3
   - name: Sobre
     pageRef: /sobre
