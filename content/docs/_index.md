@@ -14,5 +14,5 @@ breadcrumbs: false
 {{< cards >}}
 {{< card link="/docs/livros" title="Livros" icon="book-open" >}}
 <!-- {{< card link="/docs/ml" title="Filmes e Séries" icon="film" >}} -->
-{{< card link="/docs/estudos" title="Estudos" icon="academic-cap" >}}
+{{< card link="/docs/estudos" title="Estudos" icon="book-open" >}}
 {{< /cards >}}
