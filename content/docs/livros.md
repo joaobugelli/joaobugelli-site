@@ -50,6 +50,7 @@
 - The Thousand Brains
 - The Coming Wave 📌
 - The Thousand Brains
+- AI Engineering - Chip Huyen
 
 
 ### Psicologia, Mentalidade e Alta Performance
