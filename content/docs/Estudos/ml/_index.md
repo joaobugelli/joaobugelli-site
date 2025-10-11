@@ -50,13 +50,15 @@ linkTitle: "ML e AI"
 
 ## GenAI
 
-- Generative AI for Everyone (Coursera)
+- [Generative AI for Everyone (Deeplearning.ai)](https://www.coursera.org/learn/generative-ai-for-everyone)
 
-- Generative AI with Large Language Models (Coursera)
+- [Generative AI with Large Language Models (Deeplearning.ai + AWS)](https://www.coursera.org/learn/generative-ai-with-llms)
 
 - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 
 - [Agentic AI - DeepLearning.ai](https://www.deeplearning.ai/courses/agentic-ai/)
+
+- [CS336 Language Modeling from Scratch (Stanford)](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
 
 - Prompt Engineering with Llama 2 & 3
 
