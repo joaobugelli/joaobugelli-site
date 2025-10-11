@@ -17,6 +17,15 @@ markup:
     renderer:
       unsafe: true
 
+  # enable math support
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ["$$", "$$"]]
+          inline: [['\(', '\)']]
+        enable: true
+
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+
