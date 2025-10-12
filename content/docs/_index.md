@@ -6,7 +6,7 @@ cascade:
 breadcrumbs: false
 ---
 
-{{< pages-header title="Recursos" >}}
+{{< pages-header title="Docs" >}}
 
 
 ---
