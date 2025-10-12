@@ -11,9 +11,9 @@ toc: false
 
 {{< cards >}}
 {{< card link="/blog" title="Blog" icon="menu-alt-2" >}}
+{{< card link="/docs" title="Docs" icon="view-grid" >}}
 {{< card link="/sobre" title="Sobre mim" icon="user-circle" >}}
 {{< card link="/now" title="Now" icon="refresh" >}}
-{{< card link="/docs" title="Recursos" icon="view-grid" >}}
 {{< /cards >}}
 
 
