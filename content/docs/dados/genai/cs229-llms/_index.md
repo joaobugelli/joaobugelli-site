@@ -1,6 +1,6 @@
 ---
 title: "Stanford CS229 - Construindo LLMs"
-date: 2025-10-08T00:10:49-03:00
+date: 2025-10-10T00:10:49-03:00
 draft: false
 summary: ""
 kinds: ["Notas"]

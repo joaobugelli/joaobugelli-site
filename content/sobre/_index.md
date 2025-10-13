@@ -1,6 +1,7 @@
 ---
 draft: false
 toc: false
+linkTitle: "Sobre"
 ---
 
 {{< pages-header title="Sobre" >}}

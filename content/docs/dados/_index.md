@@ -1,10 +1,10 @@
 ---
-linkTitle: "ML e AI"
+linkTitle: "Dados e AI"
 ---
 
 
 <div style="text-align: center; margin-top: 2.5rem;">
-  <h1 style="font-size: 3rem; font-family:Inter">ML e AI</h1>
+  <h1 style="font-size: 3rem; font-family:Inter">Dados e AI</h1>
 </div>
 
 ---
