@@ -1,5 +1,6 @@
 ---
 type: default
+linkTitle: "Now"
 # sidebar:
 #   exclude: true
 # toc: false
