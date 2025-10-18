@@ -54,6 +54,8 @@ linkTitle: "Conteúdos"
 
 - [CS336 Language Modeling from Scratch (Stanford)](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
 
+- [Stanford CME295 Transformers & LLMs](https://www.youtube.com/watch?v=Ub3GoFaUcds)
+
 - Prompt Engineering with Llama 2 & 3
 
 - Building Generative AI Applications with Gradio
