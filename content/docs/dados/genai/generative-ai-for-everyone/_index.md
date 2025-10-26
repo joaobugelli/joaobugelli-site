@@ -1,7 +1,7 @@
 ---
 title: "Generative AI for Everyone - Deeplearning.ai"
 date: 2025-10-11T21:10:49-03:00
-draft: true
+draft: false
 summary: ""
 kinds: ["Notas"]
 categories: ["AI", "LLM", "GenAI"]
@@ -9,7 +9,12 @@ tags: ["Coursera", "LLM", "GenAI", "AI", "Andrew Ng"]
 # slug: ""        # opcional
 ---
 
-## Intro
+Essas anotações foram feitas durante o curso **[Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone)**, da DeepLearning.AI, ministrado por Andrew Ng.
+
+Este material reúne tanto os principais conceitos aprendidos no curso quanto minhas percepções, reflexões e insights pessoais sobre o tema.
+
+
+## Introdução
 
 ### Crescimento de GenAI
 
@@ -259,13 +264,159 @@ Exemplo de agente:
 ![Exemplo de agentes](agentes.png)
 
 
-https://www.youtube.com/watch?v=l-8GcQ-w2zk&list=PLuD7pwCp4AA4gLBaWeU7ymZVHGWMLAeDO&index=21
+## GenAI nos negócios
 
+### Usos no dia a dia
 
-### Identificar oportunidades de uso de GenAI
+- Assistente de escrita
+- Brainstorm (marketing, produto etc)
+- Resumir (currículos, notícias)
+- Programar
+
+### Identificar oportunidades de GenAI
+
+- IA não automatiza trabalhos completos, mas sim tarefas.
+- A maioria dos trabalhos tem várias tarefas distintas.
+
+Portanto, um framework usado para identificar oportunidade é listar as tarefas de um determinado trabalho e fazer uma análise do potencial uso de GenAI em cada uma.
+
+O uso de GenAI pode **melhorar a eficiência** de uma tarefa (*augmentation*) ou **automatiza-la** (*automation*):
+
+- **Augmentation**: ajuda humanos com a tarefa (ex: recomendar uma resposta a um serviço de atendimento ao cliente)
+- **Automation**: faz a tarefa automaticamente (ex: automaticamente transcreve e sumariza as gravações de atendimento)
+
+Muitos negócio começam com Augmentation e depois gradualmente são automatizadas.
+
+#### Como avaliar oportunidades?
+
+O potencial de augmentation ou automation depende de:
+1) **Viabilidade técnica**: IA consegue fazer? (um estudante recem formado conseguiria seguir instruções para completar a tarefa?). Faça experimentos práticos criando prompts e avaliando o resultado. RAG, fine-tunning e outras técnicas podem ajudar. Outros tipos de modelos de ML podem ser úteis também.
+2) **Valor para o negócio**: Quanto de valor ganhamos se tornarmos a tarefa mais eficiente ou automatiza-la? (quanto tempo gastamos na tarefa hoje?). Esse processo será significantemente mais rápido, barato ou consistente para realemnte gerar valor?
+
+Para a maioria dos tabalhos o potencial de IA não está necessariamente da tarefa mais "icônica", mas sim em tarefas paralelas. Por isso, é importante pensar em todas as tarefas e não apenas na principal. Faça uma lista de tarefas e avalie o potencial de cada uma.
+
+![alt text](image.png)
+
+Geralmente as empresas focam em eficiência de custos com IA. No entanto, focar em aumentar receita e crescimento tem maior potencial de retorno (não tem limite de crescimento) em comparação com reduzir custos. 
+
+Durante o processo de automação de uma tarefa, podemos repensar em como o negócio cria valor.
+
+#### Novos fluxos e oportunidades
+
+Exemplos de tarefas
+
+![alt text](image-4.png)
+
+![alt text](image-1.png)
+
+Esse processo de alterar o fluxo das tarefas é comum, porque a partir da automatição total ou parcial é importante reavaliar quais tarefas são feitas juntas para entregar valor.
+
+Além de melhorar um fluxo é possível repensá-lo, gerando novas oportunidades, como paralelizar a geração de conteúdo e fazer teste AB:
+
+![alt text](image-2.png)
+
+Além das tarefas dos internas dos funcionários, é possível analisar as tarefas dos clientes e, da mesma forma, avaliar o potencial de usar GenAI:
+![alt text](image-3.png)
+
+Aqui tem bastante potencial de gerar valor, ganhar engajamento e crescer do negócio.
+
+#### Melhores práticas para times
+
+**Papéis**
+- Engenheiro de Software
+    - Responsável por desenvolver a aplicação
+    - Idealmente tem conhecimento básico de LLMs/prompting
+
+- Engenheiro de ML
+    - Responsável por implementar os sitemas de IA
+    - Idealmente tem familiaridade com LLMs/prompting, RAG e fine-tunning
+
+- Product Manager
+    - Responsável por identificar e definir o escopo garantindo a geração de valor para o cliente e negócio
+
+- Prompt engineer?
+    - Geralmente não tem uma posição dedicada. Existe uma hype grande dessa posição.
+
+- Engenheiro de dados:
+    - Responsável por organizar os dados e garantir qualidade.
+
+- Cientista de dados:
+    - Responsável por analisar dados para fazer recomendações para guiar o projeto ou decisões de negócio.
+
+- Project Manager:
+    - Responsável por coordenaar a execução do projeto.
+
+- ML Reseacher:
+    - Responsável por desenvolver ou adaptar tecnologia de IA para o negócio.
+
+Existem difrentes configurações possíveis. A mais comum é: Engenheiro de Software + Engenheiro de ML. Mas outros papéis também podem fazer parte.
 
 ## Impacto na sociedade e negócios
 
-### Como times pode usar GenAI?
+### Empregos
 
-### Riscos e AI responsável
+Em um estudo (Eloundou et al., 2023) da OpenAI + Universidade da Pensilvania, avaliou a exposição de empregos a GenIA. Uma das conclusões foi que empregos com maiores salários tem mais impacto.
+
+![alt text](image-5.png)
+
+Outro estudo, feito pela McKinsey, analisou o impacto por função, entendo o impacto em valor financeiro (eixo vertical) e o impacto como um percentual do gasto com a função (eixo horizontal):
+
+![alt text](image-6.png)
+
+Funções em amarelo terão maior impacto e potencial de disrupção (representam 75% do total anual de impacto através de GenAI).
+
+Além disso, outro estudo da McKinsey, avaliou o potencial de automação com e sem GenAI para cada industria. O maior impacto da IA generativa será em trabalhadores que geram valor através de seu conhecimento (ao invés de trabalho físico).
+
+![alt text](image-7.png)
+
+
+### Preocupações com GenAI
+
+1) Ampliar comportamentos humanos tóxicos
+    - LLMs são treinados com texto da itnernet que refletem o comportamento humano e seus vieses (positivo e negativo)
+    - Exemplo de viés: O ______ era CEO da empresa. (os LLMs complementam com "homem", dado os exemplos que ele foi exposto, que refletem o passado e os vieses)
+    - Os modelos estão ficam menos enviesados por causa do fine-tunning e RLHF (dando notas iguais para diferentes gêneros, por exemplo).
+
+2) Perda de empregos
+    - Muito provavelmente a IA não vai automatizar 100% do seu emprego para te substituir (principalmente nos próximos anos), mas um profissional da mesma área que entende e usa IA provavelmente sim.
+
+3) Extinção da humanidade
+    - Argumentos não são concretos, muito são "pode acontecer".
+    - Humanidade tem ampla experiência em controlar coisas mais poderosas do que um ser único (empresas e estados).
+    - Muitas coisas que não conseguimos controle totalmente geram valor e são seguras (ex: avião).
+    - IA é parte da solução de grande problemas (pandemias e aquecimento global).
+
+Grande parte dessas preocupações vem do fato: "Não sabemos exatamente quando vamos atingir AGI"
+
+### Artificial General Inteligence (AGI)
+
+AGI é um conceito interessante.
+
+Existe uma confusão sobre o termo "General", que confunde com o uso "geral" da IA. Mas uma tecnologia de propósito geral não é a mesma coisa que AGI.
+
+Definição técnica mais aceita de AGI:
+> AI que pode fazer qualquer tarefa intelectual que um ser humano pode fazer
+
+Exemplo:
+- Aprender a dirigir um carro em ~20h de prática (+/- o que um ser humano demora). A IA ainda demora bem mais.
+- Compeltar um PhD em ~5 anos de tabalho (ainda bem longe).
+- Fazer todas as tarefas que um programador (ainda está longe).
+
+Algumas empresas tem "baixado" a barra e distorcido a definição de AGI.
+
+### Responsible AI
+
+#### Dimesões
+
+1) **Justo (Fairness)**: garantir que IA não perpetue ou amplie os vieses.
+2) **Transparência**: tornar as decisões de IA compreensiveis para as pessoas impactadas.
+3) **Privacidade**: proteger os dados dos usuários e garantir confidencialidade
+4) **Segurança**: Cuidar dos sistema de IA contra ataques
+5) **Uso ético**: garntir uso para propósitos benéficos
+
+
+#### Dicas
+
+- Construir uma cultura que encoraja discussão e debate sobre questões éticas.
+- Brainstorming como as coisas podem dar errado ("podemos ter problema em alguma das dimensões?").
+- Trabalhar em um time diverso e pegar perspectivas de todos stakeholders.
