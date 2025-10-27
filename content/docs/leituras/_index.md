@@ -1,5 +1,6 @@
 ---
 linkTitle: "Leituras"
+toc: false
 ---
 
 
@@ -7,5 +8,5 @@ linkTitle: "Leituras"
 ---
 
 {{< cards >}}
-{{< card link="/docs/leituras/livros" title="Livros" icon="book-open">}}
+{{< card link="/docs/leituras/livros" title="Lista de Livros" icon="book-open">}}
 {{< /cards >}}
