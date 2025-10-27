@@ -1,9 +1,9 @@
 ---
-linkTitle: "Livros"
+linkTitle: "Lista de Livros"
 ---
 
-{{< pages-header title="Livros" >}}
----
+{{< pages-header title="Lista de Livros" >}}
+
 
 {{% details title="Legenda" %}}
 
