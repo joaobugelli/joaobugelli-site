@@ -16,3 +16,4 @@ Thumbs.db
 # drafts
 content/blog/drafts/
 .vscode/settings.json
+*.psd
