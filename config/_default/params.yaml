@@ -2,8 +2,8 @@ navbar:
   displayTitle: false
   displayLogo: true
   logo:
-      path: images/logo-dark.svg
-      dark: images/logo-dark.svg
+      path: images/logo-2.svg
+      dark: images/logo-2.svg
       link: /
       width: 40
       height: 20
