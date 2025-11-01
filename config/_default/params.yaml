@@ -37,7 +37,7 @@ toc:
     displayTags: true    
 
 theme:
-  default: dark
+  default: system
 
 author:
   name: João Bugelli
