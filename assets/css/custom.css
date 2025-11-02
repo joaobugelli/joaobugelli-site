@@ -65,10 +65,11 @@
 
 .header-pages-subtitle {
     font-size: 1.3rem;
+    font-weight: 400;
     color: #747474ff;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .pages-h3 {
