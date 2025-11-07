@@ -6,6 +6,7 @@ summary: ""
 kinds: ["Notas"]
 categories: ["AI", "LLM", "GenAI"]
 tags: ["Stanford", "LLM", "CS229", "GenAI", "AI"]
+linkTitle: "CS229: Construindo LLMs"
 # slug: ""        # opcional
 ---
 

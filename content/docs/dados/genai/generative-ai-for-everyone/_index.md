@@ -6,6 +6,7 @@ summary: ""
 kinds: ["Notas"]
 categories: ["AI", "LLM", "GenAI"]
 tags: ["Coursera", "LLM", "GenAI", "AI", "Andrew Ng"]
+linkTitle: "Generative AI for Everyone"
 # slug: ""        # opcional
 ---
 
