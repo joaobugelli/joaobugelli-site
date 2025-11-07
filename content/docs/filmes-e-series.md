@@ -1,13 +1,19 @@
 ---
-draft: true
+draft: false
 linkTitle: "Filmes e Séries"
 ---
 
 
-<div style="text-align: center; margin-top: 2.5rem;">
-  <h1 style="font-size: 3rem; font-family:Inter">Filmes e Séries</h1>
-</div>
+{{< pages-header title="Filmes e Séries" subtitle="Lista de filmes e séries favoritas e as que quero assistir">}}
 
 ---
 
-Em breve
+### Favoritas
+- Mad Men
+- Breaking Bad
+- Better Call Saul
+- Fargo
+- The Bear
+- Ruptura
+- Rick and Morty
+- Bojack

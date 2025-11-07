@@ -7,16 +7,21 @@ cascade:
 breadcrumbs: false
 ---
 
-{{< pages-header title="Docs" >}}
+{{< pages-header title="Docs"  subtitle="Estudos, anotações e referências">}}
 
 
 ---
 
 {{< cards >}}
-{{< card link="/docs/dados" image="../images/bg-ia-2.webp" title="Dados e IA" icon="sparkles">}}
-{{< card link="/docs/tech" image="../images/bg-tech-2.webp" title="Tech" icon="terminal">}}
-{{< card link="/docs/produto" image="../images/bg-produto-3.webp" title="Produto" icon="shopping-bag">}}
-{{< card link="/docs/leituras" image="../images/bg-leituras.webp" title="Leituras" icon="book-open">}}
+{{< card link="/docs/dados" image="../images/bg-ia-2.webp" title="Dados e IA">}}
+{{< card link="/docs/tech" image="../images/bg-tech-2.webp" title="Tech">}}
+{{< card link="/docs/negocio" image="../images/bg-produto-3.webp" title="Negócio">}}
+{{< /cards >}}
 
-<!-- {{< card link="/docs/ml" title="Filmes e Séries" icon="film" >}} -->
+---
+
+{{< cards >}}
+  {{< card link="livros" title="Livros" subtitle="Minha lista de livros lidos e que quero ler" icon="book-open">}}
+  {{< card link="filmes-e-series" title="Filmes e Séries" subtitle="Minha lista de filmes e séries favoritas e as que quero assistir" icon="film">}}
+  <!-- {{< card link="" title="" subtitle="" icon="document-text">}} -->
 {{< /cards >}}

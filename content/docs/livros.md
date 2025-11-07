@@ -1,9 +1,10 @@
 ---
-linkTitle: "Lista de Livros"
+linkTitle: "Livros"
 ---
 
-{{< pages-header title="Lista de Livros" >}}
+{{< pages-header title="Livros" subtitle="Lista de livros lidos e leituras que quero fazer">}}
 
+---
 
 {{% details title="Legenda" %}}
 
@@ -16,7 +17,7 @@ linkTitle: "Lista de Livros"
 
 ## Não Ficção
 
-### Negócios, Produto & Startups
+### Negócios, Produto e Startups
 - Startup Enxuta ✅
 - Inspirado ✅
 - Ponto de Inflexão ✅
