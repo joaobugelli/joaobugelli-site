@@ -1,21 +1,31 @@
 {{ $posts := first 5 (where .Site.RegularPages "Type" "in" (slice "blog" "post" "posts")) }}
 
 <section class="hx:mt-8">
-    {{ range $index, $p := $posts }}
-    <div class="novidade-item">
-      <a href="{{ $p.RelPermalink }}"
-         class="hx:flex hx:items-center hx:justify-between hx:gap-4 hx:py-3"
-         style="text-decoration: none; color: inherit;">
-        <span class="hx:flex-1 hx:min-w-0 hx:truncate novidade-item-title">
+  {{ range $index, $p := $posts }}
+  <div class="update-item hx:py-3">
+    <a href="{{ $p.RelPermalink }}" 
+       class="hx:block" 
+       style="text-decoration: none; color: inherit;">
+
+      {{ with $p.Params.kinds }}
+        <div class="update-item-kinds hx:text-xs hx:font-semibold hx:uppercase hx:text-slate-500 dark:hx:text-slate-400 hx:mb-1 hx:tracking-wide">
+          {{ delimit . ", " }}
+        </div>
+      {{ end }}
+
+      <div class="hx:flex hx:items-center hx:justify-between hx:gap-4 hx:h-6">
+        <span class="hx:flex-1 hx:min-w-0 hx:truncate update-item-title hx:text-base hx:font-medium hx:leading-6">
           {{ $p.Title }}
         </span>
-        <time datetime="{{ $p.Date | time.Format "2006-01-02" }}"
-              class="hx:shrink-0 novidade-item-date">
+        <time datetime="{{ $p.Date | time.Format "2006-01-02" }}" 
+              class="hx:shrink-0 update-item-date hx:text-sm hx:text-slate-500 dark:hx:text-slate-400 hx:leading-6 hx:self-center">
           {{ $p.Date | time.Format "02 Jan 2006" }}
         </time>
-      </a>
-    </div>
-    {{ end }}
+      </div>
+
+    </a>
+  </div>
+  {{ end }}
 
   <div class="hx:mt-4">
     <a href="/blog/"
