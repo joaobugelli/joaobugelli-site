@@ -2,11 +2,11 @@ navbar:
   displayTitle: false
   displayLogo: true
   logo:
-      path: images/logo-2.svg
-      dark: images/logo-2.svg
+      path: images/logo.svg
+      dark: images/logo-dark.svg
       link: /
       width: 40
-      height: 20
+      height: 30
 
 search:
   enable: true
