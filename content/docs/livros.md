@@ -25,6 +25,8 @@ linkTitle: "Livros"
 - Os inovadores 📌
 - Apaixone-se pelo problema, não pela solução 📌
 - As 4 Disciplinas da Execução
+- Escaping the Build Trap
+- The Startup Way
 - Emponderado
 - A regra é não ter regras
 - Isso Nunca Vai Funcionar
@@ -81,6 +83,7 @@ linkTitle: "Livros"
 ### Economia e Finanças
 - Valuation, Damondaran ✅
 - Investidor Inteligente
+- As cartas de Warren Buffett
 - Introdução a Economia - Mankiw 
 - Avaliação de Empresas - Damondaran
 - Crash: Uma breve história da economia
