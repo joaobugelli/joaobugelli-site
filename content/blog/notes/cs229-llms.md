@@ -3,7 +3,7 @@ title: "CS229: Construindo LLMs"
 date: 2025-10-11T21:10:49-03:00
 draft: false
 summary: "Anotações da aula CS229 de Stanford sobre construção de LLMs"
-kinds: ["Notas"]
+kinds: ["Estudos"]
 categories: ["GenAI"]
 tags: ["GenAI", "LLMs", "CS229", "anotações", "Yann Dubois", "Stanford"]
 ---
