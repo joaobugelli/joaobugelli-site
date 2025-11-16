@@ -12,22 +12,22 @@ Olá 👋
 
 Sou João Bugelli, brasileiro, apaixonado por tecnologia, dados e produtos digitais.
 
-Nascido e criado em São Paulo, sempre fui muito curioso para entender como as coisas funcionam e os "porquês".
+Nasci e cresci em São Paulo, sempre fui muito curioso para entender como as coisas funcionam e os "porquês".
 
-Formado em Marketing pela USP (2017~2020), atuo como Product Manager com foco em produtos de dados no mercado financeiro.
+Me formei em Marketing pela USP (2017~2020), onde tive o prazer de estudar gestão, mercado, produto, matemática aplicada, economia e finanças. Eu amei a faculdade. E desde então meu interesse sobre esse assuntos só cresceu.
 
-Este site é um espaço para compartilhar o que aprendo, crio e penso, seja em artigos no blog, projetos práticos ou reflexões pessoais.
+Atuo como Product Manager com foco em produtos de dados no mercado financeiro.
 
 Temas que mais me interessam:
 
-- **Data Science e Machine Learning** – estudando e aplicando em projetos.
+- **Data Science e Machine Learning**: acho facinante a intersecção entre matemática e negócios. 
 
-- **Produtos** – construindo soluções que geram impacto real para pessoas e negócios.
+- **Produtos**: como construir soluções que os clientes amam e gerem valor para o negócio.
 
-- **Startup e Empreendedorismo** – explorando inovação, modelos de negócio e diferenciais competitivos.
+- **Startup e Empreendedorismo**: gosto entender e pensar diferentes modelos de negócio, como criar diferenciais competitivos e disrupções de mercados.
 
-- **Reflexões sobre a vida** – pensamentos e questionamentos sobre o mundo e nosso impacto nele.
+- **Reflexões sobre a vida**: pensamentos e questionamentos sobre o mundo e nosso impacto nele.
+
+Este site é um espaço para compartilhar o que aprendo, crio e penso, seja em artigos no blog, documentações dos meus estudos ou reflexões pessoais.
 
 Aqui você vai encontrar um pouco da minha jornada, movida pela curiosidade e pela vontade de aprender e construir coisas relevantes!
-
-
