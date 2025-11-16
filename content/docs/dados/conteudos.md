@@ -5,10 +5,13 @@ linkTitle: "Conteúdos"
 
 ## Machine Learning
 
-
 - [CS229: Machine Learning](https://youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&si=IBCZ2LVtMfTUHRmu)
 
 - [CS229: Machine Learning (Versão 2025)](https://www.youtube.com/watch?v=_NLHFoVNlbg)
+
+- [CS230: Deep Learning](https://youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb&si=Y-6HVPuARagD0PX5)
+
+- [CS230: Deep Learning (versão 2025)](https://www.youtube.com/watch?v=_NLHFoVNlbg) 
 
 - [CS221: Artificial Intelligence](https://youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX&si=vkgVMhuX1VOrj0oW)
 
@@ -23,8 +26,6 @@ linkTitle: "Conteúdos"
 - [CS224W: Machine Learning with Graphs](https://youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn&si=L6FEwkQWHcwesLYG)
 
 - [CS246: Mining Massive Data Sets](https://youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV&si=mINQNbkal9GqAo-P)
-
-- [CS230: Deep Learning](https://youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb&si=Y-6HVPuARagD0PX5)
 
 - [CS236: Deep Generative Models](https://youtube.com/playlist?list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&si=53MLyVMpUxdEoz52)
 
@@ -56,7 +57,7 @@ linkTitle: "Conteúdos"
 
 - [Stanford CME295 Transformers & LLMs](https://www.youtube.com/watch?v=Ub3GoFaUcds)
 
-- Prompt Engineering with Llama 2 & 3
+<!-- - Prompt Engineering with Llama 2 & 3
 
 - Building Generative AI Applications with Gradio
 
@@ -68,4 +69,4 @@ linkTitle: "Conteúdos"
 
 - Evaluating and Debugging Generative AI Models
 
-- Generative AI for Software Development
+- Generative AI for Software Development -->
