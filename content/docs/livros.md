@@ -1,5 +1,7 @@
 ---
 linkTitle: "Livros"
+sidebar:
+  exclude: true
 ---
 
 {{< pages-header title="Livros" subtitle="Lista de livros lidos e leituras que quero fazer">}}

@@ -1,6 +1,8 @@
 ---
 draft: false
 linkTitle: "Filmes e Séries"
+sidebar:
+  exclude: true
 ---
 
 
