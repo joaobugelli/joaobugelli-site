@@ -15,7 +15,7 @@ breadcrumbs: false
 {{< cards >}}
 {{< card link="/docs/dados" image="../images/bg-ia-2.webp" title="Dados e IA">}}
 {{< card link="/docs/tech" image="../images/bg-tech-2.webp" title="Tech">}}
-{{< card link="/docs/negocio" image="../images/bg-produto-3.webp" title="Negócio">}}
+{{< card link="/docs/negocio" image="../images/bg-negocios.webp" title="Negócio">}}
 {{< /cards >}}
 
 ---
