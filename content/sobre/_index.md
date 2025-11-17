@@ -14,7 +14,7 @@ Sou João Bugelli, brasileiro, apaixonado por tecnologia, dados e produtos digit
 
 Nasci e cresci em São Paulo, sempre fui muito curioso para entender como as coisas funcionam e os "porquês".
 
-Me formei em Marketing pela USP (2017~2020), onde tive o prazer de estudar gestão, mercado, produto, matemática aplicada, economia e finanças. Eu amei a faculdade. E desde então meu interesse sobre esse assuntos só cresceu.
+Me formei em Marketing pela USP (2017~2020), onde tive o prazer de estudar gestão, mercado, produto, matemática aplicada, economia e finanças. Eu amei a faculdade. E desde então meu interesse sobre esses assuntos só cresceu.
 
 Atuo como Product Manager com foco em produtos de dados no mercado financeiro.
 
