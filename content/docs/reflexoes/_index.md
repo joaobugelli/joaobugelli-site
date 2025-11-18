@@ -4,7 +4,7 @@ toc: false
 weight: 4
 ---
 
-{{< pages-header title="Reflexões" subtitle="" >}}
+{{< pages-header title="Reflexões" subtitle="Ideias, pensamentos e aprendizados" >}}
 ---
 
 Em breve

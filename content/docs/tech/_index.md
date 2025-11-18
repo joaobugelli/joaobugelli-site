@@ -1,13 +1,11 @@
 ---
+linkTitle: "Tech"
 toc: false
 weight: 3
 ---
 
 
-<div style="text-align: center; margin-top: 2.5rem;">
-  <h1 style="font-size: 3rem; font-family:Inter">Tech</h1>
-</div>
-
+{{< pages-header title="Tech" subtitle="Estudos e conteúdos sobre enganharia de software" >}}
 ---
 
 

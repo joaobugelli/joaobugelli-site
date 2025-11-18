@@ -4,7 +4,7 @@ toc: false
 weight: 1
 ---
 
-{{< pages-header title="Dados e AI" subtitle="Estudos, anotações e conteúdos sobre ciência de dados, machine learning e inteligência artificial." >}}
+{{< pages-header title="Dados e AI" subtitle="Estudos, anotações e conteúdos sobre ciência de dados, ML e IA." >}}
 ---
 
 {{< cards >}}

@@ -1,14 +1,14 @@
 ---
 linkTitle: "Negócio"
 draft: false
-summary: ""
+toc: false
 weight: 2
 ---
 
-{{< pages-header title="Negócio" >}}
-
-
+{{< pages-header title="Negócio" subtitle="Aprendizados e conteúdos sobre gestão, produto e startups" >}}
 ---
+
+Em breve
 
 
 Em breve
