@@ -1,6 +1,31 @@
-.content {
-  font-family: "Inter", sans-serif;
+/* Importa a fonte Inter do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Seta a fonte padrão "sans" do site todo */
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
+
+/* Aplica no body geral */
+body {
+  font-family: var(--font-sans) !important;
+}
+
+/* Aplica nas áreas de conteúdo do Hextra (docs + blog) */
+.content,
+.main,
+.article,
+.post,
+.post-content,
+.markdown {
+  font-family: var(--font-sans) !important;
+}
+
+/* Headings também, porque alguns temas sobrescrevem */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans) !important;
+}
+
 
 /* Home */
 .header-home {
