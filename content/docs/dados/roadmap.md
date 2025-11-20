@@ -105,6 +105,7 @@ Recomendações:
 
 {{< cards >}}
 {{< card title="[Livro] Projetando Sistemas de Machine Learning" subtitle="Um guia moderno e direto sobre como construir sistemas de ML robustos do início ao fim." link="https://www.amazon.com.br/Projetando-Sistemas-Machine-Learning-Interativo/dp/8550819670" >}}
+{{< card title="[Livro] AI Engineering" subtitle="Um guia moderno e objetivo para construir aplicações de IA com foundation models, da ideia ao deploy." link="https://www.amazon.com.br/AI-Engineering-Building-Applications-Foundation/dp/1098166302" >}}
 {{< card title="MLOps Zoomcamp" subtitle="Um dos melhores cursos práticos sobre MLOps. Ensina do zero com foco em pipelines reais e ferramentas modernas." link="https://github.com/DataTalksClub/mlops-zoomcamp" >}}
 {{< /cards >}}
 
