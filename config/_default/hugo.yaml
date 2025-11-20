@@ -29,3 +29,6 @@ markup:
   highlight:
     noClasses: false
 
+permalinks:
+  blog: "/blog/:slug/"
+
