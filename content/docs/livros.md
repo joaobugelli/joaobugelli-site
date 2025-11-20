@@ -50,10 +50,10 @@ sidebar:
 - Entendendo Algoritmos
 - Hands-On Machine Learning
 - Projetando Sistemas de Machine Learning
+- AI Engineering
 - The Thousand Brains
 - The Coming Wave 📌
-- The Thousand Brains
-- AI Engineering - Chip Huyen
+
 
 
 ### Psicologia, Mentalidade e Alta Performance
@@ -116,6 +116,13 @@ sidebar:
 - O Processo – Franz Kafka
 - Ficções – Jorge Luis Borges
 - Os Irmãos Karamázov – Fiódor Dostoiévski
+- O Conto da Ilha Desconhecida – José Saramago
+- O Velho e o Mar – Ernest Hemingway
+- O Retrato de Dorian Gray – Oscar Wilde
+- Memórias do Subsolo – Fiódor Dostoiévski
+- O Estrangeiro – Albert Camus
+- Hamlet – William Shakespeare
+- A Morte de Ivan Ilitch – Leon Tolstói
 
 
 ### Literatura Brasileira
@@ -133,6 +140,7 @@ sidebar:
 - Quarto de Despejo - Carolina Maria de Jesus
 - A Hora da Estrela - Clarice Lispector
 - Tudo é Rio – Carla Madeira
+
 
 
 ### Fantasia
