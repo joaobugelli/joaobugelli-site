@@ -6,7 +6,7 @@ summary: "OpenAI lançou o AgentKit, um conjunto integrado de ferramentas para f
 kinds: ["Notícias"]
 categories: ["AI", "Agentes", "GenAI"]
 tags: ["OpenAI", "Agentes", "AgentKit", "Produto", "GenAI", "AI"]
-# slug: ""        # opcional
+slug: "openai-lanca-agentkit"
 ---
 
 Ontem no OpenAI DevDay 2025, a empresa lançou o AgentKit, um conjunto integrado de ferramentas para facilitar a criação, implantação e otimização de agentes inteligentes.

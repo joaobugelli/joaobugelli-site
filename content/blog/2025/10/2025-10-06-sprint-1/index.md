@@ -6,7 +6,7 @@ summary: "Semana de férias dedicada a estudos, leituras e rotina saudável."
 kinds: ["Sprints"]
 categories: []
 tags: ["férias", "estudos", "sprint"]
-# slug: ""        # opcional
+slug: "sprint-1"
 ---
 
 Essa semana estou de férias do trabalho (06/10 – 10/10) e vou aproveitar pra focar em estudos, leituras e na saúde. Vamos ver se eu consigo fazer tudo isso!
