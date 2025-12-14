@@ -38,7 +38,7 @@ linkTitle: "Conteúdos"
 
 - [Made With ML](https://madewithml.com/?ref=mrdbourke.com#mlops)
 
-- [The Full stack MLOps cours](https://fullstackdeeplearning.com/course/2022/)
+- [Full Stack Deep Learning - MLOps cours](https://fullstackdeeplearning.com/course/2022/)
 
 - [Aula Daniel Bourke CS329 - How to Deploy a Machine Learning Model](https://www.youtube.com/watch?v=fw6NMQrYc6w)
 
