@@ -104,9 +104,15 @@ MLOps é a área que cuida disso: levar modelos para produção com confiabilida
 Recomendações:
 
 {{< cards >}}
+
 {{< card title="[Livro] Projetando Sistemas de Machine Learning" subtitle="Um guia moderno e direto sobre como construir sistemas de ML robustos do início ao fim." link="https://www.amazon.com.br/Projetando-Sistemas-Machine-Learning-Interativo/dp/8550819670" >}}
+
 {{< card title="[Livro] AI Engineering" subtitle="Um guia moderno e objetivo para construir aplicações de IA com foundation models, da ideia ao deploy." link="https://www.amazon.com.br/AI-Engineering-Building-Applications-Foundation/dp/1098166302" >}}
+
 {{< card title="MLOps Zoomcamp" subtitle="Um dos melhores cursos práticos sobre MLOps. Ensina do zero com foco em pipelines reais e ferramentas modernas." link="https://github.com/DataTalksClub/mlops-zoomcamp" >}}
+
+{{< card title="Full Stack Deep Learning" subtitle="Curso prático para preencher a lacuna entre o treinamento de modelos e o deploy no mundo real." link="https://fall2019.fullstackdeeplearning.com/" >}}
+
 {{< /cards >}}
 
 ## Para concluir
@@ -116,4 +122,6 @@ Aprender ciência de dados é uma jornada longa. Você não aprenderá tudo em u
 Então, não se precione para aprender tudo de uma vez. Foque em dar o próximo passo.
 
 Durante sua jornada, crie projetos práticos e reais. Você aprenderá mais e mais rápido.
+
+
 
