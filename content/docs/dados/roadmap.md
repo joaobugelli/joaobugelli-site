@@ -115,13 +115,13 @@ Recomendações:
 
 {{< /cards >}}
 
-## Para concluir
+## Dicas finais
 
 Aprender ciência de dados é uma jornada longa. Você não aprenderá tudo em um dia.
 
 Então, não se precione para aprender tudo de uma vez. Foque em dar o próximo passo.
 
-Durante sua jornada, crie projetos práticos e reais. Você aprenderá mais e mais rápido.
+Durante sua jornada, crie projetos práticos e reais. Você aprenderá melhor e mais rápido.
 
 
 
