@@ -15,6 +15,6 @@ weight: 1
 
 {{< cards >}}
   {{< card link="conteudos" title="Conteúdos" subtitle="Minha lista com os melhores conteúdos sobre dados e IA." icon="collection">}}
-  {{< card link="roadmap" title="Roadmap" subtitle="Trilha completa para aprender dados, ML e IA do zero ao avançado." icon="map">}}
+  {{< card link="roadmap" title="Roadmap" subtitle="Trilha de estudos de dados, ML e IA do zero ao avançado." icon="map">}}
   <!-- {{< card link="" title="" subtitle="" icon="document-text">}} -->
 {{< /cards >}}
