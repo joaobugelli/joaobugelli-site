@@ -23,7 +23,7 @@ sidebar:
 - Startup Enxuta ✅
 - Inspirado ✅
 - Ponto de Inflexão ✅
-- Código Fonte 📌
+- Código Fonte 📖
 - Os inovadores 📌
 - Apaixone-se pelo problema, não pela solução 📌
 - As 4 Disciplinas da Execução
@@ -59,7 +59,7 @@ sidebar:
 ### Psicologia, Mentalidade e Alta Performance
 - Maestria ✅
 - Mindset ✅
-- Hábitos Atômicos 📖
+- Hábitos Atômicos ✅
 - Flow 📌
 - Antifragil
 - Rápido e devagar - Daniel Kahneman
@@ -107,7 +107,7 @@ sidebar:
 - Fundação
 - Um estranho em uma terra estranha
 - Planeta dos macacos
-- Neuromancer 📖
+- Neuromancer
 - O Porblema dos Três Corpos
 
 ### Ficção Literária Clássica
