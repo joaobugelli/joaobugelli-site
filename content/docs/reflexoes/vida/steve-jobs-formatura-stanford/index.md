@@ -3,9 +3,15 @@ title: "Steve Jobs: lições de vida"
 date: 2025-12-15T19:53:49-03:00
 draft: false
 summary: ""
-categories: ["Reflexões"]
-tags: ["Steve Jobs", "Vida", "Morte", "Stanford", "Decisões"]
-slug: "steve-jobs-licoes-de-vida"        # opcional
+categories:
+  - Reflexões
+tags:
+  - Steve Jobs
+  - Vida
+  - Morte
+  - Stanford
+  - Decisões
+slug: steve-jobs-licoes-de-vida
 ---
 
 No [discurso de formatura em Stanford em 2005](https://www.youtube.com/watch?v=UF8uR6Z6KLc), Steve Jobs conta três histórias, que resumem lições que aprendeu na vida sobre decisões difíceis, propósito no trabalho e da finitude da vida.
