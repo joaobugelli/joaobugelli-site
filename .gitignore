@@ -17,3 +17,7 @@ Thumbs.db
 content/blog/drafts/
 .vscode/settings.json
 *.psd
+
+
+# obsidian
+.obsidian/
