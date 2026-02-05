@@ -9,9 +9,14 @@ linkTitle: "Conteúdos"
 - [Python for Everybody (University of Michigan)](https://www.coursera.org/specializations/python/)
 - [AI Python for Beginners (deeplearning.ai)](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/)
 
+- [Computer Architecture for Everybody](https://www.ca4e.com/)
+- [Internet History, Technology, and Security](https://www.youtube.com/watch?v=47NRaBVxgVM)
+
 ## Web
 
-- [Fullstack](https://fullstackopen.com/ptbr/)
+- [Fullstack Open](https://fullstackopen.com/ptbr/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [curso.dev](curso.dev)
 
 ### Front-end
 
@@ -21,8 +26,14 @@ linkTitle: "Conteúdos"
 
 ### Back-end
 
-- [FastAPI](https://fastapi.tiangolo.com/)
+- [FastAPI Doc](https://fastapi.tiangolo.com/)
+- [Curso FastAPI Dunossauro 2025](https://www.youtube.com/playlist?list=PLOQgLBuj2-3KT9ZWvPmaGFQ0KjIez0403)
 - [SQLBolt](https://sqlbolt.com/)
+
+### Design
+
+- [Curso Google UX Design](https://www.coursera.org/professional-certificates/google-ux-design)
+- [Get started with Modern UI design - Material Design 3](https://m3.material.io/get-started)
 
 ## Algoritmos
 
