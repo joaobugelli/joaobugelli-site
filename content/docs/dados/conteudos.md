@@ -57,6 +57,8 @@ linkTitle: "Conteúdos"
 
 - [Stanford CME295 Transformers & LLMs](https://www.youtube.com/watch?v=Ub3GoFaUcds)
 
+- [UC Berkeley CS294/194-196 LLM Agents](https://rdi.berkeley.edu/llm-agents/f24)
+
 <!-- - Prompt Engineering with Llama 2 & 3
 
 - Building Generative AI Applications with Gradio
