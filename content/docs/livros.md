@@ -68,6 +68,7 @@ sidebar:
 - Princípios – Ray Dalio
 - Ruído – Daniel Kahneman
 - Meditações – Marco Aurélio
+- Walden - HD Thoreau
 
 
 ### História, Sociedade e Futuro
@@ -123,6 +124,7 @@ sidebar:
 - O Estrangeiro – Albert Camus
 - Hamlet – William Shakespeare
 - A Morte de Ivan Ilitch – Leon Tolstói
+- De quanta terra precisa um homem? e outras histórias - Liev Tolstói
 
 
 ### Literatura Brasileira
@@ -143,6 +145,11 @@ sidebar:
 
 
 
+
 ### Fantasia
 - O Nome do Vento
+
+
+
+
 
