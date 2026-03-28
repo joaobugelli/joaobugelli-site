@@ -42,6 +42,8 @@ linkTitle: "Conteúdos"
 
 - [Aula Daniel Bourke CS329 - How to Deploy a Machine Learning Model](https://www.youtube.com/watch?v=fw6NMQrYc6w)
 
+- [Machine Learning Systems](https://mlsysbook.ai/book/)
+
 
 ## GenAI
 
@@ -49,9 +51,21 @@ linkTitle: "Conteúdos"
 
 - [Generative AI with Large Language Models (Deeplearning.ai + AWS)](https://www.coursera.org/learn/generative-ai-with-llms)
 
-- [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 
 - [Agentic AI - DeepLearning.ai](https://www.deeplearning.ai/courses/agentic-ai/)
+
+- [Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/)
+
+- [Evaluating AI Agents](https://www.deeplearning.ai/short-courses/evaluating-ai-agents/)
+
+- [Reinforcement Learning from Human Feedback](https://www.deeplearning.ai/short-courses/reinforcement-learning-from-human-feedback/)
+
+- [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
+
+- [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
+
+- [Building AI Browser Agents](https://www.deeplearning.ai/short-courses/building-ai-browser-agents/)
 
 - [CS336 Language Modeling from Scratch (Stanford)](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
 
