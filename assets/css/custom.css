@@ -162,3 +162,12 @@ h1, h2, h3, h4, h5, h6 {
 .dark .blog-header-title {
     border-bottom: 1px solid #404040;
 }
+
+/* conteúdo das páginas */
+.content {
+    font-weight: 300;
+}
+
+.content strong {
+    font-weight: 700;
+}
