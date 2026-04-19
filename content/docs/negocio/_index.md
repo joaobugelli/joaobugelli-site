@@ -8,4 +8,6 @@ weight: 2
 {{< pages-header title="Negócio" subtitle="Aprendizados e conteúdos sobre gestão, produto e startups" >}}
 ---
 
-Em breve
+{{< cards >}}
+  {{< card link="conteudos" title="Conteúdos" subtitle="Referências para estudar negócios." icon="collection">}}
+{{< /cards >}}
