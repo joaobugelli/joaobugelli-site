@@ -4,7 +4,7 @@ draft: false
 summary: ""
 ---
 
-#### Cursos
+## Introdução
 
 {{< cards >}}
   {{< card link="cs229-llms" title="CS229: Construindo LLMs" subtitle="Anotações da aula CS229 de Stanford, lecionada por Yann Dubois.">}}
