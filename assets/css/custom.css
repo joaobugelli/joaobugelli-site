@@ -165,9 +165,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* conteúdo das páginas */
 .content {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .content strong {
-    font-weight: 700;
+    font-weight: 900;
 }
