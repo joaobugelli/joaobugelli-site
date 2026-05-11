@@ -8,6 +8,8 @@ linkTitle: "Sobre"
 
 ---
 
+<img src="img-perfil.png" alt="Perfil" width="300">
+
 Olá 👋
 
 Sou João Bugelli, brasileiro, apaixonado por tecnologia, dados e produtos digitais.
