@@ -32,3 +32,6 @@ markup:
 permalinks:
   blog: "/blog/:slug/"
 
+params:
+  imageZoom:
+    enable: true
