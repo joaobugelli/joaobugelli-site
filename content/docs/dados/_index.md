@@ -2,6 +2,7 @@
 linkTitle: "Dados e AI"
 toc: false
 weight: 1
+imageZoom: false
 ---
 
 {{< pages-header title="Dados e AI" subtitle="Estudos, anotações e conteúdos sobre ciência de dados, ML e IA." >}}

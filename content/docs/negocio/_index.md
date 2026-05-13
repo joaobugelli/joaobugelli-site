@@ -3,6 +3,7 @@ linkTitle: "Negócio"
 draft: false
 toc: false
 weight: 2
+imageZoom: false
 ---
 
 {{< pages-header title="Negócio" subtitle="Aprendizados e conteúdos sobre gestão, produto e startups" >}}

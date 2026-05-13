@@ -4,7 +4,9 @@ cascade:
     breadcrumbs: true
     toc: true   
     type: "docs"
+imageZoom: false
 breadcrumbs: false
+imageZoom: false
 ---
 
 {{< pages-header title="Docs"  subtitle="Estudos, anotações e referências">}}
