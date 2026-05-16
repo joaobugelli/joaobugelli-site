@@ -122,18 +122,3 @@ Aprender ciência de dados é uma jornada longa. Você não aprenderá tudo em u
 Então, não se precione para aprender tudo de uma vez. Foque em dar o próximo passo.
 
 Durante sua jornada, crie projetos práticos e reais. Você aprenderá melhor e mais rápido.
-
-
-
-
-{{< tabs items="Photos,Music,Videos" >}}
-  {{< tab >}}Manage and organize your photo library.{{< /tab >}}
-  {{< tab >}}Browse and play your favorite tracks.{{< /tab >}}
-  {{< tab >}}Watch and stream video content.{{< /tab >}}
-{{< /tabs >}}
-
-{{< tabs >}}
-  {{< tab name="Photos" icon="photograph" >}}Manage and organize your photo library.{{< /tab >}}
-  {{< tab name="Music" icon="music-note" >}}Browse and play your favorite tracks.{{< /tab >}}
-  {{< tab name="Videos" icon="film" >}}Watch and stream video content.{{< /tab >}}
-{{< /tabs >}}
