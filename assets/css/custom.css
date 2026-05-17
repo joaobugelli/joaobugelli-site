@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-sans) !important;
 }
 
-
 /* Home */
 .header-home {
     text-align: center;
@@ -108,6 +107,48 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+/* CONTENT  */
+
+/* conteúdo das páginas */
+.content {
+    font-weight: 400;
+}
+
+.content strong {
+    font-weight: 900;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.content h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.content h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+
+/* BLOG */
+
+/* Blog List */
+
 .blog-post-item {
     border-bottom: 1px solid #E5E7EB;
     padding-bottom: 2rem;
@@ -139,13 +180,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
 }
 
-.blog-post-item-kind {
-    color: #707070;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-bottom: 0.3rem;
-}
-
 .blog-post-item-date {
     color: #aaaaaa;
     font-weight: 400;
@@ -163,11 +197,112 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #404040;
 }
 
-/* conteúdo das páginas */
-.content {
-    font-weight: 400;
+
+/* Blog Post */
+
+.blog-post-header {
+    padding: 4rem 0rem;
+    margin-bottom: 1rem;
 }
 
-.content strong {
-    font-weight: 900;
+.blog-post-kind {
+    text-align: center;
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.blog-post-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.blog-post-date {
+    text-align: center;
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+
+/* DOCS */
+
+/* Docs List */
+.docs-list-title {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+/* Docs Post */
+
+.docs-post-header {
+    padding: 4rem 0rem;
+}
+
+.docs-post-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.docs-post-subtitle {
+    font-size: 1rem;
+    color: #747474ff;
+    text-align: center;
+}
+
+.docs-post-kind {
+    text-align: center;
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.docs-post-categories {
+    text-align: center;
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* TAGS */
+
+.post-tags {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.post-tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #374151;
+    text-decoration: none;
+}
+
+.post-tag:hover {
+    background-color: #d1d5db;
+}
+
+.dark .post-tag {
+    background-color: #2a2a2a;
+    color: #e5e7eb;
+}
+
+.dark .post-tag:hover {
+    background-color: #3a3a3a;
 }
