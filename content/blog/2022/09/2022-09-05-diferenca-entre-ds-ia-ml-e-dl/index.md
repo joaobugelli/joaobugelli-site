@@ -49,7 +49,7 @@ Data science (em português, ciência de dados) é a área de dados como um todo
 
 ![Escopo Data Science](img-5.webp)
 
-e modo geral, a área de data science aplica o método científico com objetivo de gerar valor para um negócio (área específica de atuação), seja um produto totalmente novo (Google Tradutor), uma nova funcionalidade em um produto existente (rádio da música no Spotify) ou até uma melhor compreensão do comportamento dos consumidores do seu mercado para que você tome decisões mais assertivas (decisões de novos conteúdos na Netflix).
+De modo geral, a área de data science aplica o método científico com objetivo de gerar valor para um negócio (área específica de atuação), seja um produto totalmente novo (Google Tradutor), uma nova funcionalidade em um produto existente (rádio da música no Spotify) ou até uma melhor compreensão do comportamento dos consumidores do seu mercado para que você tome decisões mais assertivas (decisões de novos conteúdos na Netflix).
 
 Veja aplicações práticas de data science na Netflix:
 
