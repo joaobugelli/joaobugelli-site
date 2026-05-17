@@ -1,9 +1,10 @@
 ---
-title: "Stanford CS229 - Construindo LLMs"
+title: "CS229: Construindo LLMs"
+subtitle: "Anotações da aula CS229 de Stanford, lecionada por Yann Dubois"
 date: 2025-10-10T00:10:49-03:00
 draft: false
 summary: ""
-kinds: ["Notas"]
+kinds: ["Anotações"]
 categories: ["AI", "LLM", "GenAI"]
 tags: ["Stanford", "LLM", "CS229", "GenAI", "AI"]
 linkTitle: "CS229: Construindo LLMs"
@@ -11,11 +12,7 @@ linkTitle: "CS229: Construindo LLMs"
 ---
 
 
-Essas são anotações da aula CS229 sobre LLMs, lecionada por Yann Dubois. 
-
 A aula está disponível no [Youtube ↗](https://www.youtube.com/watch?v=9vM4p9NN0Ts)
-
-
 
 ## Anotações
 
@@ -240,7 +237,7 @@ Um caminho para contornar isso:
 - É usado Automatic Mixed Precision (algumas coisas são em 32 bits outras em 16 bits)
 - A computação é feita em 16 bits, mas os pesos dos modelos são armazenados em 32 bits.
 
-**Operator Fusion**
+##### Operator Fusion
 
 Como a comunicação é lenta, quando temos várias processos que serão executados (ex: várias linhas de código no PyTorch), tem um desperdício no processo de:
 1. Levar o dado da memória para a GPU
@@ -261,13 +258,13 @@ Para isso é possível compilar o código em C++ e CUDA para otimizar esse proce
 
 ### Objetivo
 
-**Porque existe o post-training?**
+#### Porque existe o post-training?
 
 O post-training existe para transformar modelos em "Assistentes de IA". O modelo linguagem "puro" não é o que queremos (ele não segue as instruções e fornece a resposta que queremos, mas sim, textos mais prováveis dado o input).
 
 Para isso é feito o *"alignment"*.
 
-**Alignment**
+#### Alignment
 
 - Objetivo é fazer o LLM seguir as instruções dos usuários e designers (ex: moderação)
 - Durante o Pretraining usamos muitos dados (estão disponíveis), mas não são exatamente o que queremos (pensando no uso do modelo)
@@ -310,7 +307,8 @@ Desta forma, o RLHF vem para contornar isso. Ao invés de clonar o comportamento
 
 Era usado um método chamado PPO. Agora existe um novo método chamado DPO (que maximiza as respostas que os usuários gostam e minimizam as que não).
 
-Desafios no RLHF:
+#### Desafios em RLHF
+
 - Devagar e caro.
 - Difícil de focar na qualidade versus a forma do conteúdo (ex: pessoas normalmente classificam respostas maiores como melhores).
 - A distribuição dos assuntos na rotulagem muda o comportamento do modelo.

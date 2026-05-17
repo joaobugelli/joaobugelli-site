@@ -1,5 +1,5 @@
 ---
-title: "Generative AI for Everyone - Deeplearning.ai"
+title: "Generative AI for Everyone"
 date: 2025-10-11T21:10:49-03:00
 draft: false
 summary: ""
