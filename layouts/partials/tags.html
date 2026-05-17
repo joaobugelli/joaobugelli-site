@@ -1,0 +1,8 @@
+{{- $context := .context -}}
+{{- $class := .class | default "" -}}
+
+{{- range $tag := $context.Params.tags -}}
+  {{- with $context.Site.GetPage (printf "/tags/%s" $tag) -}}
+    <a class="{{ $class }}" href="{{ .RelPermalink }}">{{ $tag }}</a>
+  {{- end -}}
+{{- end -}}
