@@ -1,5 +1,5 @@
 ---
-title: Introção + Scratch
+title: Introdução + Scratch
 date: 2026-01-09T21:50:00-03:00
 draft: false
 kinds:
