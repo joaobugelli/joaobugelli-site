@@ -1,0 +1,78 @@
+{{ define "main" }}
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . }}
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+        <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+          {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
+        {{ if .Title }}
+        <div class="blog-post-header">
+
+        {{/* KIND: aceita `kind` (string) ou `kinds` (lista/valor) */}}
+        {{- $kind := "" -}}
+        {{- with .Params.kind }}{{ $kind = (print .) }}{{ end -}}
+        {{- if eq $kind "" -}}
+          {{- with .Params.kinds -}}
+            {{- $t := printf "%T" . -}}
+            {{- if or (eq $t "[]string") (eq $t "[]interface {}") -}}
+              {{- $kind = (delimit . ", ") -}}
+            {{- else -}}
+              {{- $kind = (print .) -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if ne $kind "" -}}
+          <div class="blog-post-kind">{{ $kind }}</div>
+        {{- end -}}
+        <h1 class="blog-post-title">{{ .Title }}</h1>
+        {{ end }}
+        <div class="blog-post-date">
+          {{- with $date := .Date }}<span class="">{{ partial "utils/format-date" $date }}</span>{{ end -}}
+          {{- $lazyLoading := site.Params.enableImageLazyLoading | default true -}}
+          {{ if and .Date .Params.authors }}<span class="hx:mx-">·</span>{{ end -}}
+          {{- with $.Params.authors -}}
+            {{- range $i, $author := . -}}
+              {{- if reflect.IsMap $author -}}
+                {{- if and $i (not $author.image) }}<span class="hx:mr-1">,</span>{{ end -}}
+                <a
+                  {{ with $author.link }}href="{{ . }}" target="_blank"{{ end }}
+                  class="hx:group hx:inline-flex hx:items-center hx:text-current hx:gap-x-1.5 hx:mx-1"
+                  {{ with $author.name }}title="{{ . }}"{{ end }}
+                >
+                  {{- with $image := $author.image }}
+                    {{- $isLocal := not (urls.Parse $image).Scheme -}}
+                    {{- $startsWithSlash := hasPrefix $image "/" -}}
+                    {{- if and $isLocal $startsWithSlash }}
+                      {{- $image = (relURL (strings.TrimPrefix "/" $image)) -}}
+                    {{ end -}}
+                    <img src="{{ $image | safeURL }}" alt="{{ $author.name }}" class="hx:inline-block hx:h-4 hx:w-4 hx:rounded-full" {{ if $lazyLoading }}loading="lazy"{{ end }} />
+                  {{ end -}}
+                  <div class="hx:group-hover:underline">{{ $author.name }}</div>
+                </a>
+              {{- else -}}
+                {{- if $i }}<span class="hx:mr-1">,</span>{{ end -}}<span class="hx:mx-1">{{ $author }}</span>
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        </div>
+
+        </div>
+
+        <div class="content">
+          {{ .Content }}
+        </div>
+        {{- if .Params.tags -}}
+          <div class="post-tags">
+            {{ partial "tags.html" (dict "context" . "class" "post-tag") }}
+          </div>
+        {{- end -}}
+        {{- partial "components/last-updated.html" . -}}
+        {{- if (site.Params.blog.article.displayPagination | default true) -}}
+          {{- .Store.Set "reversePagination" (.Params.reversePagination | default true) -}}
+          {{- partial "components/pager.html" . -}}
+        {{ end }}
+        {{- partial "components/comments.html" . -}}
+      </main>
+    </article>
+  </div>
+{{ end }}
