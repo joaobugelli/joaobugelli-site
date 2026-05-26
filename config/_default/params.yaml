@@ -46,6 +46,11 @@ author:
 # adicionar descrição do site
 description: ""
 
+# Default cover image used in link previews (Open Graph / Twitter Cards)
+# Override per post with front matter `images: ["my-cover.png"]`
+images:
+  - images/og-default.png
+
 # add katex as engine to render latex
 math:
   engine: katex
