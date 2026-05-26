@@ -16,6 +16,7 @@ tags:
   - Lançamentos
   - Análise
   - Mercado
+images: "capa-google-io.webp"
 slug: google-io-2026
 ---
 
