@@ -307,3 +307,30 @@ h1, h2, h3, h4, h5, h6 {
 .dark .post-tag:hover {
     background-color: #3a3a3a;
 }
+
+/* Sidebar Customization */
+.hextra-sidebar-container {
+  width: 20rem !important;
+  min-width: 20rem !important;
+  max-width: 20rem !important;
+  border-right: 1px solid #2a2a2a !important;
+}
+
+.hextra-sidebar-container.hextra-sidebar-disabled {
+  border-right: none !important;
+}
+
+.hextra-max-page-width {
+  max-width: none !important;
+}
+
+/* Restaura o tamanho da div central para o comportamento normal anterior */
+.hextra-sidebar-container ~ article main {
+  max-width: 64rem !important;
+}
+
+@media (min-width: 1280px) {
+  .hextra-sidebar-container ~ article main {
+    max-width: 48rem !important;
+  }
+}
