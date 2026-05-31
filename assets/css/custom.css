@@ -357,5 +357,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dark .hextra-sidebar-item[data-active="true"] .hextra-sidebar-collapsible-button {
-  color: #f5f5f5 !important; /* Cor da seta do item selecionado (azul) */
+  color: #3b82f6 !important; /* Cor da seta do item selecionado (azul) */
+}
+
+/* Garante que a sidebar ocupe a altura completa da janela (fazendo a borda direita ir até o final da página) */
+.hextra-sidebar-container {
+  min-height: calc(100vh - var(--navbar-height)) !important;
+}
+
+/* Ajusta o container do alternador de tema na sidebar */
+.hextra-sidebar-container > div.hx\:sticky.hx\:bottom-0 {
+  height: 3.75rem !important; /* Altura de 60px */
+}
+
+/* Centraliza horizontalmente o botão do modo (ícone + texto "Escuro") dentro do retângulo */
+.hextra-theme-toggle {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.hextra-theme-toggle > div {
+  justify-content: left !important;
+  width: 100% !important;
 }
