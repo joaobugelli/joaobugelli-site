@@ -1,6 +1,8 @@
 ---
 draft: false
 toc: false
+sidebar:
+  hide: true
 linkTitle: "Sobre"
 ---
 

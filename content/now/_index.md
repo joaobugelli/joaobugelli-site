@@ -1,9 +1,9 @@
 ---
 type: default
 linkTitle: "Now"
-# sidebar:
-#   exclude: true
-# toc: false
+sidebar:
+  hide: true
+toc: false
 ---
 
 {{< pages-header title="Now" subtitle="O que estou fazendo agora?">}}
