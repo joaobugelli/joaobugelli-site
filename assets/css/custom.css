@@ -334,3 +334,28 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 48rem !important;
   }
 }
+
+/* Customização do Item Ativo (Selecionado) na Sidebar */
+.hextra-sidebar-active-item {
+  background-color: #ECECEC !important; /* Cor de fundo (modo claro) */
+  color: #364153 !important;            /* Cor do texto (modo claro) */
+}
+
+/* Customização do Item Ativo no Modo Escuro */
+.dark .hextra-sidebar-active-item {
+  background-color: #2a2a2a !important; /* Cor de fundo (modo escuro - idêntico ao da imagem) */
+  color: #ffffff  !important;            /* Cor do texto (modo escuro - idêntico ao da imagem) */
+}
+
+/* Customização das setas (chevrons) da Sidebar no Modo Escuro */
+.dark .hextra-sidebar-collapsible-button {
+  color: #a3a3a3 !important; /* Cor padrão das setas (cinza neutro) */
+}
+
+.dark .hextra-sidebar-item:hover .hextra-sidebar-collapsible-button {
+  color: #f5f5f5 !important; /* Cor no hover */
+}
+
+.dark .hextra-sidebar-item[data-active="true"] .hextra-sidebar-collapsible-button {
+  color: #f5f5f5 !important; /* Cor da seta do item selecionado (azul) */
+}
