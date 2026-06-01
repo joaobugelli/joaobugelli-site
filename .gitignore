@@ -21,3 +21,6 @@ content/blog/drafts/
 
 # obsidian
 .obsidian/
+
+# ignora arquivos de vídeo
+*.mp4
