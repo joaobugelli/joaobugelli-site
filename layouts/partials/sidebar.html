@@ -11,24 +11,24 @@
   {{- $displayPlaceholder = false -}}
 {{- end -}}
 
-{{- $sidebarClass := "hx:md:sticky" -}}
+{{- $sidebarClass := "hx:lg:sticky" -}}
 {{- if $disableSidebar -}}
   {{- if $displayPlaceholder -}}
-    {{- $sidebarClass = "hx:md:hidden hx:xl:block" -}}
+    {{- $sidebarClass = "hx:lg:hidden hx:2xl:block" -}}
   {{- else -}}
-    {{- $sidebarClass = "hx:md:hidden" -}}
+    {{- $sidebarClass = "hx:lg:hidden" -}}
   {{- end -}}
 {{- end -}}
 
-<aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}{{ if $disableSidebar }} hextra-sidebar-disabled{{ end }}">
+<aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:lg:top-16 hx:lg:shrink-0 hx:lg:w-64 hx:lg:self-start hx:max-lg:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}{{ if $disableSidebar }} hextra-sidebar-disabled{{ end }}">
   {{- if (site.Params.search.enable | default true) -}}
     <!-- Search bar on small screen -->
-    <div class="hx:px-4 hx:pt-4 hx:md:hidden">
+    <div class="hx:px-4 hx:pt-4 hx:lg:hidden">
       {{ partial "search.html" (dict "location" "sidebar") }}
     </div>
   {{- end -}}
-  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
-    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:lg:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="hx:flex hx:flex-col hx:gap-1 hx:lg:hidden">
       <!-- Nav -->
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
@@ -36,17 +36,17 @@
 
     <!-- Sidebar on large screen -->
     {{- if $disableSidebar -}}
-      {{- if $displayPlaceholder }}<div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>{{ end -}}
+      {{- if $displayPlaceholder }}<div class="hextra-sidebar-placeholder hx:max-2xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>{{ end -}}
       {{ .context.Store.Set "enableFooterSwitches" true }}
     {{- else -}}
-      <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-md:hidden">
+      <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-lg:hidden">
         {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) }}
         {{ template "sidebar-footer" }}
       </ul>
     {{ end -}}
   </div>
   {{/* Hide theme switch when sidebar is disabled */}}
-  {{ $switchesClass := cond $disableSidebar "hx:md:hidden" "" -}}
+  {{ $switchesClass := cond $disableSidebar "hx:lg:hidden" "" -}}
   {{ $displayThemeToggle := (site.Params.theme.displayToggle | default true) -}}
 
   {{ if or hugo.IsMultilingual $displayThemeToggle }}

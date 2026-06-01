@@ -29,6 +29,10 @@ markup:
   highlight:
     noClasses: false
 
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+
 permalinks:
   blog: "/blog/:slug/"
 
