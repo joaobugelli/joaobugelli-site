@@ -1,4 +1,5 @@
 navbar:
+  width: full
   displayTitle: false
   displayLogo: true
   logo:
@@ -34,7 +35,7 @@ blog:
       displayPagination: true
 
 toc:
-    displayTags: true    
+    displayTags: false
 
 theme:
   default: system
