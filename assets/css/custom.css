@@ -32,16 +32,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5rem; 
 }
 
-.header-home-h1 {
+.content .header-home-h1 {
     font-size: 3rem
 }
 
-.header-home-subtitle {
-    font-size: 1.3rem;
+.content .header-home-subtitle {
+    font-size: 1.3rem; 
     color: #747474ff;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem ;
 }
 
 /* cor padrão (modo claro) */
@@ -86,12 +86,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.header-pages-h1 {
+.content .header-pages-h1 {
     font-size: 3rem;
     font-weight: 600;
 }
 
-.header-pages-subtitle {
+.content .header-pages-subtitle {
     font-size: 1.3rem;
     font-weight: 400;
     color: #747474ff;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .docs-post-subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #747474ff;
     text-align: center;
 }
