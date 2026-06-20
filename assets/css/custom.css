@@ -490,3 +490,24 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   }
 }
+
+/* Customização dos itens de menu apenas na versão mobile */
+@media (max-width: 64rem) {
+  .hextra-mobile-menu-list > li > .hextra-sidebar-item a {
+    font-size: 1.75rem !important;
+    font-weight: 500 !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+  .hextra-mobile-menu-list > li > .hextra-sidebar-item a:not(.hextra-sidebar-active-item) {
+    color: #111111 !important;
+  }
+  .dark .hextra-mobile-menu-list > li > .hextra-sidebar-item a:not(.hextra-sidebar-active-item) {
+    color: #ffffff !important;
+  }
+  /* Ajusta o tamanho da seta/chevron de expansão */
+  .hextra-mobile-menu-list > li > .hextra-sidebar-item .hextra-sidebar-collapsible-button svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
