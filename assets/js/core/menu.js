@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const menu = document.querySelector('.hextra-hamburger-menu');
   const sidebarContainer = document.querySelector('.hextra-sidebar-container');
+  const mobileSearchBtn = document.querySelector('.hextra-mobile-search-button');
   
   if (!menu || !sidebarContainer) return;
 
@@ -61,6 +62,21 @@ document.addEventListener('DOMContentLoaded', function () {
     // which opens the software keyboard immediately.
     toggleMenu({ focusOnOpen: e.detail === 0 });
   });
+
+  if (mobileSearchBtn) {
+    mobileSearchBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (!isMenuOpen()) {
+        toggleMenu({ focusOnOpen: false });
+      }
+      const searchInput = sidebarContainer.querySelector('.hextra-search-input');
+      if (searchInput) {
+        setTimeout(() => {
+          searchInput.focus();
+        }, 100);
+      }
+    });
+  }
 
   // Close menu on Escape key (mobile only)
   document.addEventListener('keydown', (e) => {
