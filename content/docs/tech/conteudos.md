@@ -48,7 +48,7 @@ linkTitle: "Conteúdos"
 ## Ferramentas
 
 - [Introdução ao Git e GitHub](https://www.coursera.org/learn/introduction-git-github?)
-- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/?ref=mrdbourke.com)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu)
 
 
 
