@@ -511,3 +511,21 @@ h1, h2, h3, h4, h5, h6 {
     height: 22px !important;
   }
 }
+
+/* Estilização customizada de Citações (Blockquotes) */
+.content blockquote {
+  background-color: #f3f4f6 !important; /* Cor de fundo no modo claro */
+  border-left: 4px solid #919191 !important; /* Barra lateral no modo claro */
+  color: #1F1F1F !important; /* Cor do texto no modo claro */
+  padding: 1rem 1.25rem !important; /* Espaçamento interno */
+  border-radius: 0.375rem !important; /* Bordas arredondadas nas outras pontas */
+  margin: 1.5rem 0 !important; /* Margem externa vertical */
+  font-style: normal !important; /* Texto em itálico */
+}
+
+/* Ajustes para o modo escuro */
+.dark .content blockquote {
+  background-color: #1F1F1F !important; /* Cor de fundo no modo escuro */
+  border-left: 4px solid #333333 !important; /* Barra lateral no modo escuro */
+  color: #919191 !important; /* Cor do texto no modo escuro */
+}
