@@ -318,9 +318,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 20rem !important;
     min-width: 20rem !important;
     max-width: 20rem !important;
-    border-right: 1px solid #2a2a2a !important;
+    border-right: 1px solid #ebe6e7 !important;
     height: calc(100vh - var(--navbar-height)) !important;
     min-height: calc(100vh - var(--navbar-height)) !important;
+  }
+  .dark .hextra-sidebar-container {
+    border-right: 1px solid #2a2a2a !important;
   }
   .hextra-sidebar-container > div.hextra-scrollbar {
     height: calc(100vh - var(--navbar-height) - var(--menu-height)) !important;
@@ -525,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Ajustes para o modo escuro */
 .dark .content blockquote {
-  background-color: #1F1F1F !important; /* Cor de fundo no modo escuro */
-  border-left: 4px solid #333333 !important; /* Barra lateral no modo escuro */
-  color: #919191 !important; /* Cor do texto no modo escuro */
+  background-color: #1c1c1e !important; /* Cor de fundo no modo escuro */
+  border-left: 8px solid #48484a !important; /* Barra lateral no modo escuro */
+  color: #d1d5db !important; /* Cor do texto no modo escuro */
 }
