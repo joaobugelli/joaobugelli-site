@@ -53,13 +53,11 @@ linkTitle: "Conteúdos"
 
 - [Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 
+#### Agents
+
 - [Agentic AI - DeepLearning.ai](https://www.deeplearning.ai/courses/agentic-ai/)
 
 - [Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/)
-
-- [Evaluating AI Agents](https://www.deeplearning.ai/short-courses/evaluating-ai-agents/)
-
-- [Reinforcement Learning from Human Feedback](https://www.deeplearning.ai/short-courses/reinforcement-learning-from-human-feedback/)
 
 - [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 
@@ -67,11 +65,41 @@ linkTitle: "Conteúdos"
 
 - [Building AI Browser Agents](https://www.deeplearning.ai/short-courses/building-ai-browser-agents/)
 
+- [Long-Term Agentic Memory With LangGraph](https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph)
+
+- [UC Berkeley CS294/194-196 LLM Agents](https://rdi.berkeley.edu/llm-agents/f24)
+
+#### Evals
+
+- [Evaluating AI Agents](https://www.deeplearning.ai/short-courses/evaluating-ai-agents/)
+
+- [Why AI evals are the hottest new skill for product builders - Lenny's Podcast](https://www.youtube.com/watch?v=BsWxPI9UM4c)
+
+- [Demystifying evals for AI agents - Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+
+- [Evaluation best practices - OpenAI](https://developers.openai.com/api/docs/guides/evaluation-best-practices)
+
+- [Eval Driven System Design - OpenAI](https://developers.openai.com/cookbook/examples/partners/eval_driven_system_design/receipt_inspection)
+
+- [Who Validates the Validators?](https://arxiv.org/abs/2404.12272)
+
+#### Modelos Fundacionais
+
 - [CS336 Language Modeling from Scratch (Stanford)](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
 
 - [Stanford CME295 Transformers & LLMs](https://www.youtube.com/watch?v=Ub3GoFaUcds)
 
-- [UC Berkeley CS294/194-196 LLM Agents](https://rdi.berkeley.edu/llm-agents/f24)
+#### Construindo Aplicações
+
+- [Build from Idea to App](https://www.deeplearning.ai/courses/build-with-andrew)
+
+- [Designing with Claude: From prompt to production](https://www.youtube.com/watch?v=Uvl-tRga98g)
+
+#### Outros
+
+- [Reinforcement Learning from Human Feedback](https://www.deeplearning.ai/short-courses/reinforcement-learning-from-human-feedback/)
+
+- [Build Interactive Agents with Generative UI](https://www.deeplearning.ai/courses/build-interactive-agents-with-generative-ui)
 
 <!-- - Prompt Engineering with Llama 2 & 3
 
