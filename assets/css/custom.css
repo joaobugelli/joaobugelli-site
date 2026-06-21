@@ -532,3 +532,9 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 8px solid #48484a !important; /* Barra lateral no modo escuro */
   color: #d1d5db !important; /* Cor do texto no modo escuro */
 }
+
+/* Remove a barra/borda inferior dos títulos h2 */
+.content h2 {
+  border-bottom: none !important;
+  padding-bottom: 3 !important;
+}
