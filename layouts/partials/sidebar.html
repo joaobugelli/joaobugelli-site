@@ -28,7 +28,7 @@
     </div>
   {{- end -}}
   <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:lg:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
-    <ul class="hx:flex hx:flex-col hx:gap-1 hx:lg:hidden">
+    <ul class="hextra-mobile-menu-list hx:flex hx:flex-col hx:gap-1 hx:lg:hidden">
       <!-- Nav -->
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
