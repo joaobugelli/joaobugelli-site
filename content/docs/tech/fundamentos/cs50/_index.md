@@ -7,10 +7,7 @@ toc: false
 ---
 
 
-> [!NOTE] Notas
-> Anotações pessoais do curso CS50.  
-> Conteúdo original disponível em: https://cs50.harvard.edu/x/
-
+> Anotações pessoais do curso [CS50 de Harvard](https://cs50.harvard.edu/x/)
 
 #### Aulas
 
