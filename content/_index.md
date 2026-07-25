@@ -6,7 +6,7 @@ sidebar:
   hide: true
 ---
 
-{{< home-header title="João Bugelli" subtitle="Explorar, aprender, construir, refletir">}}
+{{< home-header title="João Bugelli" subtitle="Explorar, construir, aprender">}}
 
 ---
 
