@@ -1,11 +1,8 @@
 ---
-linkTitle: "Tech"
+title: "Tech"
+subtitle: "Estudos e conteúdos sobre engenharia de software"
 toc: false
 weight: 3
----
-
-
-{{< pages-header title="Tech" subtitle="Estudos e conteúdos sobre enganharia de software" >}}
 ---
 
 {{< cards >}}
