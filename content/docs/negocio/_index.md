@@ -1,14 +1,15 @@
 ---
-linkTitle: "Negócio"
-draft: false
+title: "Negócio"
+subtitle: "Aprendizados e conteúdos sobre gestão, produto e startups" 
 toc: false
 weight: 2
 imageZoom: false
 ---
 
-{{< pages-header title="Negócio" subtitle="Aprendizados e conteúdos sobre gestão, produto e startups" >}}
+Em breve
+
 ---
 
 {{< cards >}}
-  {{< card link="conteudos" title="Conteúdos" subtitle="Referências para estudar negócios." icon="collection">}}
+  {{< card link="referencias" title="Referências" subtitle="Conteúdos para estudar negócios." icon="collection">}}
 {{< /cards >}}
