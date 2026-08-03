@@ -36,7 +36,7 @@ Ferramentas
 ---
 {{< cards >}}
 
-  {{< card link="conteudos" title="Conteúdos" subtitle="Minha lista de conteúdos e referências sobre tech." icon="collection">}}
+  {{< card link="referencias" title="Referências" subtitle="Conteúdos sobre tech." icon="collection">}}
 
 {{< /cards >}}
 

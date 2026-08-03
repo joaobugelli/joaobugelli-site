@@ -1,6 +1,5 @@
 ---
-title: "Conteúdos"
-linkTitle: "Conteúdos"
+title: "Referências"
 ---
 
 ## Introdução a Programação
