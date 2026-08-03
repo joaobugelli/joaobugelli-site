@@ -1,6 +1,6 @@
 ---
 title: "Neurociência"
-subtitle: "Explorando o sistema nervoso, a cognição e o comportamento."
+subtitle: "Explorando o sistema nervoso, a cognição e o comportamento"
 draft: false
 toc: false
 weight: 3
