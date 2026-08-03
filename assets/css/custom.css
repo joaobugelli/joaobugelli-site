@@ -142,17 +142,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
+    padding-bottom: 0rem;
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+    border-bottom: none;
 }
 
 .content h3 {
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 .content h4 {
@@ -560,12 +562,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1c1c1e !important; /* Cor de fundo no modo escuro */
   border-left: 8px solid #48484a !important; /* Barra lateral no modo escuro */
   color: #d1d5db !important; /* Cor do texto no modo escuro */
-}
-
-/* Remove a barra/borda inferior dos títulos h2 */
-.content h2 {
-  border-bottom: none !important;
-  padding-bottom: 0.75rem !important;
 }
 
 /* Remove o sublinhado dos links no conteúdo */
