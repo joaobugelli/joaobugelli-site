@@ -18,6 +18,7 @@ imageZoom: false
 {{< card link="/docs/dados" image="../images/bg-ia-3.webp" title="Dados e IA">}}
 {{< card link="/docs/tech" image="../images/bg-tech-5.webp" title="Tech">}}
 {{< card link="/docs/negocio" image="../images/bg-negocios-3.webp" title="Negócio">}}
+{{< card link="/docs/neurociencia" image="../images/bg-neuro.webp" title="Neurociência">}}
 {{< card link="/docs/reflexoes" image="../images/bg-reflexoes-2.webp" title="Reflexões">}}
 {{< /cards >}}
 
