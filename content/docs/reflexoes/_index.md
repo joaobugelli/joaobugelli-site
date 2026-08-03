@@ -1,11 +1,9 @@
 ---
-linkTitle: "Reflexões"
+title: "Reflexões"
+subtitle: "Ideias, pensamentos e aprendizados"
 toc: false
 weight: 4
 imageZoom: false
----
-
-{{< pages-header title="Reflexões" subtitle="Ideias, pensamentos e aprendizados" >}}
 ---
 
 ## Vida
