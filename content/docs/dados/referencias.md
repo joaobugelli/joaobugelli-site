@@ -1,6 +1,6 @@
 ---
-title: "Conteúdos"
-linkTitle: "Conteúdos"
+title: "Referências"
+subtitle: "Conteúdos sobre dados e IA"
 ---
 
 ## Machine Learning
