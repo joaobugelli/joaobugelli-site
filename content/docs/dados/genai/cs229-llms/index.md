@@ -12,11 +12,9 @@ linkTitle: "CS229: Construindo LLMs"
 ---
 
 
-A aula está disponível no [Youtube ↗](https://www.youtube.com/watch?v=9vM4p9NN0Ts)
+> Aula disponível no [Youtube](https://www.youtube.com/watch?v=9vM4p9NN0Ts)
 
-## Anotações
-
-### O que importa em LLMs?
+## O que importa em LLMs?
 
 1. Arquitetura
 2. Treinamento de modelos
@@ -26,7 +24,7 @@ A aula está disponível no [Youtube ↗](https://www.youtube.com/watch?v=9vM4p9
 
 O item 1 e 2 são os mais estudados na academia, mas o professor aponta que o 3, 4 e 5 são os mais relevantes na prática.
 
-### Duas fases de um LLM
+## Duas fases de um LLM
 
 1. **Pretraining:** modelar baseado nos dados disponíveis (GPT3)
     - Tokenização e Loss
@@ -206,9 +204,7 @@ $$\text{FLOPs} \approx 6 \times (\text{n de parâmetros}) \times (\text{n de tok
 
 - Existe uma regulação que modelos com mais de 10^26 FLOPs precisam passar por *"special scrutiny"*. Empresas fazem modelos abaixo para não ter que lidar com isso (ex: LLaMA 3 ~3.8 e25 FLOPs)
     
-{{< callout type="info" >}}
-  **Special Scrutiny** significa que acima de certo nível de poder computacional, o modelo entra em uma categoria que exige auditoria, segurança e transparência especiais, devido ao seu potencial de risco e impacto.
-{{< /callout >}}
+> **Special Scrutiny** significa que acima de certo nível de poder computacional, o modelo entra em uma categoria que exige auditoria, segurança e transparência especiais, devido ao seu potencial de risco e impacto.
 
 - **Poder de computação:** NVIDIA 16K H100 ~400 TFLOPS
 - **Tempo:** 3.8e25 / (400e12 * 3600) = 26M GPU hour / (16e3 * 24) = 70 dias
