@@ -1,5 +1,6 @@
 ---
-title: "CS50: Introdução à Ciência da Computação"
+title: "CS50"
+subtitle: "Introdução à Ciência da Computação"
 draft: false
 summary: ""
 linkTitle: CS50
@@ -7,7 +8,7 @@ toc: false
 ---
 
 
-> Anotações pessoais do curso [CS50 de Harvard](https://cs50.harvard.edu/x/)
+> Anotações do curso [CS50 de Harvard](https://cs50.harvard.edu/x/)
 
 #### Aulas
 
